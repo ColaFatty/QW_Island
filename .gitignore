@@ -1,0 +1,18 @@
+# 构建产物 / Build artifacts
+dist/
+build/
+*.spec.bak
+
+# 分享包 / Share package
+*分享包*.zip
+*_分享包*.zip
+
+# 运行时数据
+*.log
+island_config.json
+
+# IDE
+.idea/
+.vscode/
+__pycache__/
+*.pyc
